@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCACB7371ECB2B0600687CB9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCACB7361ECB2B0600687CB9 /* main.m */; };
+		FCACB73A1ECB2B0600687CB9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCACB7391ECB2B0600687CB9 /* AppDelegate.m */; };
+		FCACB73D1ECB2B0600687CB9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCACB73C1ECB2B0600687CB9 /* ViewController.m */; };
+		FCACB7401ECB2B0600687CB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCACB73E1ECB2B0600687CB9 /* Main.storyboard */; };
+		FCACB7421ECB2B0600687CB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCACB7411ECB2B0600687CB9 /* Assets.xcassets */; };
+		FCACB7451ECB2B0600687CB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCACB7431ECB2B0600687CB9 /* LaunchScreen.storyboard */; };
+		FCACB7501ECB2B0600687CB9 /* ICoMoviePlayerTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCACB74F1ECB2B0600687CB9 /* ICoMoviePlayerTestTests.m */; };
+		FCACB75B1ECB2B0600687CB9 /* ICoMoviePlayerTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCACB75A1ECB2B0600687CB9 /* ICoMoviePlayerTestUITests.m */; };
+		FCACB76A1ECB2BA600687CB9 /* MediaPlayerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = FCACB7691ECB2BA600687CB9 /* MediaPlayerTest.m */; };
+		FCACB76D1ECB2C9B00687CB9 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCACB76C1ECB2C9B00687CB9 /* MediaPlayer.framework */; };
+		FCACB7701ECB31B700687CB9 /* AVPlayerTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCACB76F1ECB31B700687CB9 /* AVPlayerTestViewController.m */; };
+		FCACB7721ECB3CC300687CB9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCACB7711ECB3CC300687CB9 /* AVFoundation.framework */; };
+		FCACB7741ECB3CC700687CB9 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCACB7731ECB3CC700687CB9 /* AVKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCACB74C1ECB2B0600687CB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCACB72A1ECB2B0600687CB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCACB7311ECB2B0600687CB9;
+			remoteInfo = ICoMoviePlayerTest;
+		};
+		FCACB7571ECB2B0600687CB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCACB72A1ECB2B0600687CB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCACB7311ECB2B0600687CB9;
+			remoteInfo = ICoMoviePlayerTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FCACB7321ECB2B0600687CB9 /* ICoMoviePlayerTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ICoMoviePlayerTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCACB7361ECB2B0600687CB9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FCACB7381ECB2B0600687CB9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FCACB7391ECB2B0600687CB9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FCACB73B1ECB2B0600687CB9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FCACB73C1ECB2B0600687CB9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FCACB73F1ECB2B0600687CB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCACB7411ECB2B0600687CB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCACB7441ECB2B0600687CB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FCACB7461ECB2B0600687CB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCACB74B1ECB2B0600687CB9 /* ICoMoviePlayerTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ICoMoviePlayerTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCACB74F1ECB2B0600687CB9 /* ICoMoviePlayerTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICoMoviePlayerTestTests.m; sourceTree = "<group>"; };
+		FCACB7511ECB2B0600687CB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCACB7561ECB2B0600687CB9 /* ICoMoviePlayerTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ICoMoviePlayerTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCACB75A1ECB2B0600687CB9 /* ICoMoviePlayerTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICoMoviePlayerTestUITests.m; sourceTree = "<group>"; };
+		FCACB75C1ECB2B0600687CB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCACB7681ECB2BA600687CB9 /* MediaPlayerTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaPlayerTest.h; sourceTree = "<group>"; };
+		FCACB7691ECB2BA600687CB9 /* MediaPlayerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaPlayerTest.m; sourceTree = "<group>"; };
+		FCACB76C1ECB2C9B00687CB9 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		FCACB76E1ECB31B700687CB9 /* AVPlayerTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVPlayerTestViewController.h; sourceTree = "<group>"; };
+		FCACB76F1ECB31B700687CB9 /* AVPlayerTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVPlayerTestViewController.m; sourceTree = "<group>"; };
+		FCACB7711ECB3CC300687CB9 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		FCACB7731ECB3CC700687CB9 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCACB72F1ECB2B0600687CB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCACB7741ECB3CC700687CB9 /* AVKit.framework in Frameworks */,
+				FCACB7721ECB3CC300687CB9 /* AVFoundation.framework in Frameworks */,
+				FCACB76D1ECB2C9B00687CB9 /* MediaPlayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCACB7481ECB2B0600687CB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCACB7531ECB2B0600687CB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCACB7291ECB2B0600687CB9 = {
+			isa = PBXGroup;
+			children = (
+				FCACB7341ECB2B0600687CB9 /* ICoMoviePlayerTest */,
+				FCACB74E1ECB2B0600687CB9 /* ICoMoviePlayerTestTests */,
+				FCACB7591ECB2B0600687CB9 /* ICoMoviePlayerTestUITests */,
+				FCACB7331ECB2B0600687CB9 /* Products */,
+				FCACB76B1ECB2C9B00687CB9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FCACB7331ECB2B0600687CB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCACB7321ECB2B0600687CB9 /* ICoMoviePlayerTest.app */,
+				FCACB74B1ECB2B0600687CB9 /* ICoMoviePlayerTestTests.xctest */,
+				FCACB7561ECB2B0600687CB9 /* ICoMoviePlayerTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCACB7341ECB2B0600687CB9 /* ICoMoviePlayerTest */ = {
+			isa = PBXGroup;
+			children = (
+				FCACB7381ECB2B0600687CB9 /* AppDelegate.h */,
+				FCACB7391ECB2B0600687CB9 /* AppDelegate.m */,
+				FCACB73B1ECB2B0600687CB9 /* ViewController.h */,
+				FCACB73C1ECB2B0600687CB9 /* ViewController.m */,
+				FCACB73E1ECB2B0600687CB9 /* Main.storyboard */,
+				FCACB7411ECB2B0600687CB9 /* Assets.xcassets */,
+				FCACB7431ECB2B0600687CB9 /* LaunchScreen.storyboard */,
+				FCACB7461ECB2B0600687CB9 /* Info.plist */,
+				FCACB7351ECB2B0600687CB9 /* Supporting Files */,
+				FCACB7681ECB2BA600687CB9 /* MediaPlayerTest.h */,
+				FCACB7691ECB2BA600687CB9 /* MediaPlayerTest.m */,
+				FCACB76E1ECB31B700687CB9 /* AVPlayerTestViewController.h */,
+				FCACB76F1ECB31B700687CB9 /* AVPlayerTestViewController.m */,
+			);
+			path = ICoMoviePlayerTest;
+			sourceTree = "<group>";
+		};
+		FCACB7351ECB2B0600687CB9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCACB7361ECB2B0600687CB9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FCACB74E1ECB2B0600687CB9 /* ICoMoviePlayerTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				FCACB74F1ECB2B0600687CB9 /* ICoMoviePlayerTestTests.m */,
+				FCACB7511ECB2B0600687CB9 /* Info.plist */,
+			);
+			path = ICoMoviePlayerTestTests;
+			sourceTree = "<group>";
+		};
+		FCACB7591ECB2B0600687CB9 /* ICoMoviePlayerTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FCACB75A1ECB2B0600687CB9 /* ICoMoviePlayerTestUITests.m */,
+				FCACB75C1ECB2B0600687CB9 /* Info.plist */,
+			);
+			path = ICoMoviePlayerTestUITests;
+			sourceTree = "<group>";
+		};
+		FCACB76B1ECB2C9B00687CB9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCACB7731ECB3CC700687CB9 /* AVKit.framework */,
+				FCACB7711ECB3CC300687CB9 /* AVFoundation.framework */,
+				FCACB76C1ECB2C9B00687CB9 /* MediaPlayer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCACB7311ECB2B0600687CB9 /* ICoMoviePlayerTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCACB75F1ECB2B0600687CB9 /* Build configuration list for PBXNativeTarget "ICoMoviePlayerTest" */;
+			buildPhases = (
+				FCACB72E1ECB2B0600687CB9 /* Sources */,
+				FCACB72F1ECB2B0600687CB9 /* Frameworks */,
+				FCACB7301ECB2B0600687CB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ICoMoviePlayerTest;
+			productName = ICoMoviePlayerTest;
+			productReference = FCACB7321ECB2B0600687CB9 /* ICoMoviePlayerTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FCACB74A1ECB2B0600687CB9 /* ICoMoviePlayerTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCACB7621ECB2B0600687CB9 /* Build configuration list for PBXNativeTarget "ICoMoviePlayerTestTests" */;
+			buildPhases = (
+				FCACB7471ECB2B0600687CB9 /* Sources */,
+				FCACB7481ECB2B0600687CB9 /* Frameworks */,
+				FCACB7491ECB2B0600687CB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCACB74D1ECB2B0600687CB9 /* PBXTargetDependency */,
+			);
+			name = ICoMoviePlayerTestTests;
+			productName = ICoMoviePlayerTestTests;
+			productReference = FCACB74B1ECB2B0600687CB9 /* ICoMoviePlayerTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FCACB7551ECB2B0600687CB9 /* ICoMoviePlayerTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCACB7651ECB2B0600687CB9 /* Build configuration list for PBXNativeTarget "ICoMoviePlayerTestUITests" */;
+			buildPhases = (
+				FCACB7521ECB2B0600687CB9 /* Sources */,
+				FCACB7531ECB2B0600687CB9 /* Frameworks */,
+				FCACB7541ECB2B0600687CB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCACB7581ECB2B0600687CB9 /* PBXTargetDependency */,
+			);
+			name = ICoMoviePlayerTestUITests;
+			productName = ICoMoviePlayerTestUITests;
+			productReference = FCACB7561ECB2B0600687CB9 /* ICoMoviePlayerTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCACB72A1ECB2B0600687CB9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "정다운";
+				TargetAttributes = {
+					FCACB7311ECB2B0600687CB9 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Manual;
+					};
+					FCACB74A1ECB2B0600687CB9 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FCACB7311ECB2B0600687CB9;
+					};
+					FCACB7551ECB2B0600687CB9 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FCACB7311ECB2B0600687CB9;
+					};
+				};
+			};
+			buildConfigurationList = FCACB72D1ECB2B0600687CB9 /* Build configuration list for PBXProject "ICoMoviePlayerTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCACB7291ECB2B0600687CB9;
+			productRefGroup = FCACB7331ECB2B0600687CB9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCACB7311ECB2B0600687CB9 /* ICoMoviePlayerTest */,
+				FCACB74A1ECB2B0600687CB9 /* ICoMoviePlayerTestTests */,
+				FCACB7551ECB2B0600687CB9 /* ICoMoviePlayerTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCACB7301ECB2B0600687CB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCACB7451ECB2B0600687CB9 /* LaunchScreen.storyboard in Resources */,
+				FCACB7421ECB2B0600687CB9 /* Assets.xcassets in Resources */,
+				FCACB7401ECB2B0600687CB9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCACB7491ECB2B0600687CB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCACB7541ECB2B0600687CB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCACB72E1ECB2B0600687CB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCACB7701ECB31B700687CB9 /* AVPlayerTestViewController.m in Sources */,
+				FCACB73D1ECB2B0600687CB9 /* ViewController.m in Sources */,
+				FCACB76A1ECB2BA600687CB9 /* MediaPlayerTest.m in Sources */,
+				FCACB73A1ECB2B0600687CB9 /* AppDelegate.m in Sources */,
+				FCACB7371ECB2B0600687CB9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCACB7471ECB2B0600687CB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCACB7501ECB2B0600687CB9 /* ICoMoviePlayerTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCACB7521ECB2B0600687CB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCACB75B1ECB2B0600687CB9 /* ICoMoviePlayerTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCACB74D1ECB2B0600687CB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCACB7311ECB2B0600687CB9 /* ICoMoviePlayerTest */;
+			targetProxy = FCACB74C1ECB2B0600687CB9 /* PBXContainerItemProxy */;
+		};
+		FCACB7581ECB2B0600687CB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCACB7311ECB2B0600687CB9 /* ICoMoviePlayerTest */;
+			targetProxy = FCACB7571ECB2B0600687CB9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FCACB73E1ECB2B0600687CB9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCACB73F1ECB2B0600687CB9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FCACB7431ECB2B0600687CB9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCACB7441ECB2B0600687CB9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCACB75D1ECB2B0600687CB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FCACB75E1ECB2B0600687CB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCACB7601ECB2B0600687CB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = ICoMoviePlayerTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = daun.joung.ICoMoviePlayerTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		FCACB7611ECB2B0600687CB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = ICoMoviePlayerTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = daun.joung.ICoMoviePlayerTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+		FCACB7631ECB2B0600687CB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ICoMoviePlayerTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = daun.joung.ICoMoviePlayerTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ICoMoviePlayerTest.app/ICoMoviePlayerTest";
+			};
+			name = Debug;
+		};
+		FCACB7641ECB2B0600687CB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ICoMoviePlayerTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = daun.joung.ICoMoviePlayerTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ICoMoviePlayerTest.app/ICoMoviePlayerTest";
+			};
+			name = Release;
+		};
+		FCACB7661ECB2B0600687CB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ICoMoviePlayerTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = daun.joung.ICoMoviePlayerTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ICoMoviePlayerTest;
+			};
+			name = Debug;
+		};
+		FCACB7671ECB2B0600687CB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ICoMoviePlayerTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = daun.joung.ICoMoviePlayerTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ICoMoviePlayerTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCACB72D1ECB2B0600687CB9 /* Build configuration list for PBXProject "ICoMoviePlayerTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCACB75D1ECB2B0600687CB9 /* Debug */,
+				FCACB75E1ECB2B0600687CB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCACB75F1ECB2B0600687CB9 /* Build configuration list for PBXNativeTarget "ICoMoviePlayerTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCACB7601ECB2B0600687CB9 /* Debug */,
+				FCACB7611ECB2B0600687CB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FCACB7621ECB2B0600687CB9 /* Build configuration list for PBXNativeTarget "ICoMoviePlayerTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCACB7631ECB2B0600687CB9 /* Debug */,
+				FCACB7641ECB2B0600687CB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FCACB7651ECB2B0600687CB9 /* Build configuration list for PBXNativeTarget "ICoMoviePlayerTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCACB7661ECB2B0600687CB9 /* Debug */,
+				FCACB7671ECB2B0600687CB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCACB72A1ECB2B0600687CB9 /* Project object */;
+}
