@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC7AF01B1ECDC8E400E2E48D /* AVPlayerLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7AF01A1ECDC8E400E2E48D /* AVPlayerLayerViewController.m */; };
 		FCACB7371ECB2B0600687CB9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCACB7361ECB2B0600687CB9 /* main.m */; };
 		FCACB73A1ECB2B0600687CB9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCACB7391ECB2B0600687CB9 /* AppDelegate.m */; };
 		FCACB73D1ECB2B0600687CB9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCACB73C1ECB2B0600687CB9 /* ViewController.m */; };
@@ -40,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FC7AF0191ECDC8E400E2E48D /* AVPlayerLayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVPlayerLayerViewController.h; sourceTree = "<group>"; };
+		FC7AF01A1ECDC8E400E2E48D /* AVPlayerLayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVPlayerLayerViewController.m; sourceTree = "<group>"; };
 		FCACB7321ECB2B0600687CB9 /* ICoMoviePlayerTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ICoMoviePlayerTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCACB7361ECB2B0600687CB9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FCACB7381ECB2B0600687CB9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -130,6 +133,8 @@
 				FCACB7691ECB2BA600687CB9 /* MediaPlayerTest.m */,
 				FCACB76E1ECB31B700687CB9 /* AVPlayerTestViewController.h */,
 				FCACB76F1ECB31B700687CB9 /* AVPlayerTestViewController.m */,
+				FC7AF0191ECDC8E400E2E48D /* AVPlayerLayerViewController.h */,
+				FC7AF01A1ECDC8E400E2E48D /* AVPlayerLayerViewController.m */,
 			);
 			path = ICoMoviePlayerTest;
 			sourceTree = "<group>";
@@ -305,6 +310,7 @@
 			files = (
 				FCACB7701ECB31B700687CB9 /* AVPlayerTestViewController.m in Sources */,
 				FCACB73D1ECB2B0600687CB9 /* ViewController.m in Sources */,
+				FC7AF01B1ECDC8E400E2E48D /* AVPlayerLayerViewController.m in Sources */,
 				FCACB76A1ECB2BA600687CB9 /* MediaPlayerTest.m in Sources */,
 				FCACB73A1ECB2B0600687CB9 /* AppDelegate.m in Sources */,
 				FCACB7371ECB2B0600687CB9 /* main.m in Sources */,
@@ -547,6 +553,7 @@
 				FCACB7611ECB2B0600687CB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FCACB7621ECB2B0600687CB9 /* Build configuration list for PBXNativeTarget "ICoMoviePlayerTestTests" */ = {
 			isa = XCConfigurationList;
@@ -555,6 +562,7 @@
 				FCACB7641ECB2B0600687CB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FCACB7651ECB2B0600687CB9 /* Build configuration list for PBXNativeTarget "ICoMoviePlayerTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -563,6 +571,7 @@
 				FCACB7671ECB2B0600687CB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
